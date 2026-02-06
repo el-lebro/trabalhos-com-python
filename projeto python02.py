@@ -1,0 +1,5 @@
+a=input('digite algo:')
+print('o tipo primitivo dele é',type(a))
+print('ele só tem letras',a.isalpha())
+print('ele so tem números',a.isnumeric())
+print('ele so tem espaços',a.isspace())
